@@ -25,8 +25,10 @@ export default gql`
       email: String!
       password: String!
     ): User
+
     login(username: String!, password: String!): LoginResult!
   }
+
   type Query {
     seeProfile(username: String): User
   }
