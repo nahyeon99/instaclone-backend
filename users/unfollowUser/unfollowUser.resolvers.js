@@ -1,5 +1,5 @@
-import { protectedResolver } from "../users.utils";
 import client from "../../client";
+import { protectedResolver } from "../users.utils";
 
 export default {
   Mutation: {
@@ -11,7 +11,7 @@ export default {
         if (!ok) {
           return {
             ok: false,
-            error: "Can't unfollow user.",
+            error: "Can't unfollow User",
           };
         }
         await client.user.update({
@@ -26,6 +26,9 @@ export default {
             },
           },
         });
+        return {
+          ok: true,
+        };
       }
     ),
   },
