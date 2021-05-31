@@ -9,13 +9,11 @@ Instaclone Backend.
 - [x] Login
 - [x] Edit Profile
 - [x] Change Avatar (Image Upload)
-- [ ] Follow User
+- [x] Follow User
 - [ ] Unfollow User
-- [ ] Follow User
-- [ ] unFollow User
-- [ ] Search Users
 - [ ] See Followers
 - [ ] See Following
+- [ ] Search Users
 
 ## Photos
 
